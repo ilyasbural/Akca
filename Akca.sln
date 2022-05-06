@@ -3,7 +3,49 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akca.Teams", "Akca.Teams\Akca.Teams.csproj", "{99C7691A-66D9-4962-B23C-838E8D622156}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akca.Core", "Akca.Core\Akca.Core.csproj", "{4A8B8E84-FA43-4052-898D-6142D964BDAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akca.DataAccess", "Akca.DataAccess\Akca.DataAccess.csproj", "{821771AC-97FA-4F33-ABA4-F31CEFB1DACC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akca.Business", "Akca.Business\Akca.Business.csproj", "{EEC70EB5-434F-4DBB-90D2-2B618C9DC533}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akca.Api", "Akca.Api\Akca.Api.csproj", "{8FFE958D-680D-4798-97F9-070D1E785F92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akca.Management", "Akca.Management\Akca.Management.csproj", "{4C197C76-A4AE-4D1C-9DDB-3B567D854B53}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99C7691A-66D9-4962-B23C-838E8D622156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99C7691A-66D9-4962-B23C-838E8D622156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99C7691A-66D9-4962-B23C-838E8D622156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99C7691A-66D9-4962-B23C-838E8D622156}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A8B8E84-FA43-4052-898D-6142D964BDAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A8B8E84-FA43-4052-898D-6142D964BDAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A8B8E84-FA43-4052-898D-6142D964BDAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A8B8E84-FA43-4052-898D-6142D964BDAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{821771AC-97FA-4F33-ABA4-F31CEFB1DACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{821771AC-97FA-4F33-ABA4-F31CEFB1DACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{821771AC-97FA-4F33-ABA4-F31CEFB1DACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{821771AC-97FA-4F33-ABA4-F31CEFB1DACC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEC70EB5-434F-4DBB-90D2-2B618C9DC533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEC70EB5-434F-4DBB-90D2-2B618C9DC533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEC70EB5-434F-4DBB-90D2-2B618C9DC533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEC70EB5-434F-4DBB-90D2-2B618C9DC533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FFE958D-680D-4798-97F9-070D1E785F92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FFE958D-680D-4798-97F9-070D1E785F92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FFE958D-680D-4798-97F9-070D1E785F92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FFE958D-680D-4798-97F9-070D1E785F92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C197C76-A4AE-4D1C-9DDB-3B567D854B53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C197C76-A4AE-4D1C-9DDB-3B567D854B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C197C76-A4AE-4D1C-9DDB-3B567D854B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C197C76-A4AE-4D1C-9DDB-3B567D854B53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
